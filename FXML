@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane prefHeight="660.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      
+      <Polygon fill="#24c7c5" layoutX="301.0" layoutY="330.0" scaleX="5.2" scaleY="5.2" stroke="BLACK" strokeType="INSIDE">
+         <points>
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="60.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="30.0" />
+            <Double fx:value="50.0" />
+            <Double fx:value="-30.0" />
+            <Double fx:value="0.0" />
+            <Double fx:value="-60.0" />
+            <Double fx:value="-50.0" />
+            <Double fx:value="-30.0" />
+         </points>
+      </Polygon>
+      <ImageView fitHeight="327.0" fitWidth="771.0" layoutX="87.0" layoutY="-83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="327.0" fitWidth="344.0" layoutX="85.0" layoutY="-83.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="349.0" layoutX="125.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="327.0" layoutX="132.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="334.0" layoutX="128.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Prairie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="327.0" fitWidth="771.0" layoutX="181.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="327.0" fitWidth="344.0" layoutX="179.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="349.0" layoutX="219.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="327.0" layoutX="226.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="334.0" layoutX="222.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Prairie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="334.0" layoutX="81.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Prairie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="327.0" layoutX="85.0" layoutY="419.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="327.0" fitWidth="344.0" layoutX="-9.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="349.0" layoutX="-16.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="327.0" fitWidth="771.0" layoutX="323.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Hills.png" />
+         </image>
+      </ImageView>
+      
+      <ImageView fx:id="d11" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d12" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d13" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d14" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d15" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d16" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="12.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die6.png" />
+         </image>
+      </ImageView>
+      
+      <ImageView fx:id="d21" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d22" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d23" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d24" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d25" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="d26" fitHeight="57.0" fitWidth="59.0" layoutX="662.0" layoutY="78.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Die6.png" />
+         </image>
+      </ImageView>
+      
+      <Button fx:id="d1" layoutX="662.0" layoutY="12.0" mnemonicParsing="false" onAction="#d1Clicked" opacity="0.0" prefHeight="57.0" prefWidth="59.0" text="Dice1" />
+      <Button fx:id="d2" layoutX="662.0" layoutY="78.0" mnemonicParsing="false" onAction="#d2Clicked" opacity="0.0" prefHeight="57.0" prefWidth="59.0" text="Dice2" />
+      <ImageView fitHeight="327.0" fitWidth="334.0" layoutX="38.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="349.0" layoutX="126.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="334.0" fitWidth="334.0" layoutX="-61.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Prairie.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="361.0" fitWidth="354.0" layoutX="27.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Desert.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="s1" layoutX="242.0" layoutY="136.0" mnemonicParsing="false" onAction="#s1Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight1" />
+      <Button fx:id="s2" layoutX="337.0" layoutY="136.0" mnemonicParsing="false" onAction="#s2Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight2" />
+      <Button fx:id="s3" layoutX="196.0" layoutY="220.0" mnemonicParsing="false" onAction="#s3Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight3" />
+      <Button fx:id="s4" layoutX="289.0" layoutY="220.0" mnemonicParsing="false" onAction="#s4Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight4" />
+      <Button fx:id="s5" layoutX="384.0" layoutY="220.0" mnemonicParsing="false" onAction="#s5Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight5" />
+      <Button fx:id="s6" layoutX="148.0" layoutY="306.0" mnemonicParsing="false" onAction="#s6Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight6" />
+      <Button fx:id="s7" layoutX="242.0" layoutY="306.0" mnemonicParsing="false" onAction="#s7Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight7" />
+      <Button fx:id="s8" layoutX="334.0" layoutY="305.0" mnemonicParsing="false" onAction="#s8Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight8" />
+      <Button fx:id="s9" layoutX="430.0" layoutY="305.0" mnemonicParsing="false" onAction="#s9Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight9" />
+      <Button fx:id="s10" layoutX="196.0" layoutY="391.0" mnemonicParsing="false" onAction="#s10Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight10" />
+      <Button fx:id="s11" layoutX="289.0" layoutY="390.0" mnemonicParsing="false" onAction="#s11Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight11" />
+      <Button fx:id="s12" layoutX="383.0" layoutY="390.0" mnemonicParsing="false" onAction="#s12Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight12" />
+      <Button fx:id="s13" layoutX="242.0" layoutY="475.0" mnemonicParsing="false" onAction="#s13Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight13" />
+      <Button fx:id="s14" layoutX="336.0" layoutY="475.0" mnemonicParsing="false" onAction="#s14Clicked" opacity="0.0" prefHeight="50.0" prefWidth="5.0" scaleX="0.5" text="Straight14" />
+      
+      <Button fx:id="r1" layoutX="172.0" layoutY="179.0" mnemonicParsing="false" onAction="#r1Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight1" />
+      <Button fx:id="r2" layoutX="266.0" layoutY="182.0" mnemonicParsing="false" onAction="#r2Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight2" />
+      <Button fx:id="r3" layoutX="361.0" layoutY="182.0" mnemonicParsing="false" onAction="#r3Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight3" />
+      <Button fx:id="r4" layoutX="124.0" layoutY="265.0" mnemonicParsing="false" onAction="#r4Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight4" />
+      <Button fx:id="r5" layoutX="218.0" layoutY="265.0" mnemonicParsing="false" onAction="#r5Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight5" />
+      <Button fx:id="r6" layoutX="313.0" layoutY="265.0" mnemonicParsing="false" onAction="#r6Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight6" />
+      <Button fx:id="r7" layoutX="406.0" layoutY="265.0" mnemonicParsing="false" onAction="#r7Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight7" />
+      <Button fx:id="r8" layoutX="172.0" layoutY="350.0" mnemonicParsing="false" onAction="#r8Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight8" />
+      <Button fx:id="r9" layoutX="266.0" layoutY="350.0" mnemonicParsing="false" onAction="#r9Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight9" />
+      <Button fx:id="r10" layoutX="356.0" layoutY="350.0" mnemonicParsing="false" onAction="#r10Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight10" />
+      <Button fx:id="r11" layoutX="452.0" layoutY="350.0" mnemonicParsing="false" onAction="#r11Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight11" />
+      <Button fx:id="r12" layoutX="218.0" layoutY="436.0" mnemonicParsing="false" onAction="#r12Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight12" />
+      <Button fx:id="r13" layoutX="313.0" layoutY="436.0" mnemonicParsing="false" onAction="#r13Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight13" />
+      <Button fx:id="r14" layoutX="406.0" layoutY="436.0" mnemonicParsing="false" onAction="#r14Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="-56.3" scaleX="0.5" text="SlantRight14" />
+      
+      <Button fx:id="l1" layoutX="219.0" layoutY="181.0" mnemonicParsing="false" onAction="#l1Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft1" />
+      <Button fx:id="l2" layoutX="313.0" layoutY="181.0" mnemonicParsing="false" onAction="#l2Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft2" />
+      <Button fx:id="l3" layoutX="408.0" layoutY="181.0" mnemonicParsing="false" onAction="#l3Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft3" />
+      <Button fx:id="l4" layoutX="172.0" layoutY="265.0" mnemonicParsing="false" onAction="#l4Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft4" />
+      <Button fx:id="l5" layoutX="266.0" layoutY="265.0" mnemonicParsing="false" onAction="#l5Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft5" />
+      <Button fx:id="l6" layoutX="360.0" layoutY="265.0" mnemonicParsing="false" onAction="#l6Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft6" />
+      <Button fx:id="l7" layoutX="452.0" layoutY="265.0" mnemonicParsing="false" onAction="#l7Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft7" />
+      <Button fx:id="l8" layoutX="124.0" layoutY="350.0" mnemonicParsing="false" onAction="#l8Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft8" />
+      <Button fx:id="l9" layoutX="218.0" layoutY="350.0" mnemonicParsing="false" onAction="#l9Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft9" />
+      <Button fx:id="l10" layoutX="313.0" layoutY="350.0" mnemonicParsing="false" onAction="#l10Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft10" />
+      <Button fx:id="l11" layoutX="406.0" layoutY="350.0" mnemonicParsing="false" onAction="#l11Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft11" />
+      <Button fx:id="l12" layoutX="172.0" layoutY="434.0" mnemonicParsing="false" onAction="#l12Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft12" />
+      <Button fx:id="l13" layoutX="266.0" layoutY="435.0" mnemonicParsing="false" onAction="#l13Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft13" />
+      <Button fx:id="l14" layoutX="360.0" layoutY="435.0" mnemonicParsing="false" onAction="#l14Clicked" opacity="0.0" prefHeight="45.0" prefWidth="24.0" rotate="58.4" scaleX="0.5" text="SlantLeft14" />
+      
+   </children>
+</AnchorPane>
