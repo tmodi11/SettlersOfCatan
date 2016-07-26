@@ -1,0 +1,54 @@
+//import java.awt.*;
+import javafx.scene.control.Button;
+import java.util.ArrayList;
+
+public class Player {
+	
+	private String name;
+	private String color;
+	private int victoryPoints;
+	private int[] resources;
+	private ArrayList<Button> roads;
+	private ArrayList<Button> settlements;
+	private ArrayList<Button> cities;
+
+	public Player(String name, String color) {
+		this.name = name;
+		this.color = color;
+		victoryPoints = 0;
+		resources = new int[6];
+		roads = new ArrayList<Button>();
+		settlements = new ArrayList<Button>();
+		cities = new ArrayList<Button>();
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int getVictoryPoints() {
+		return victoryPoints;
+	}
+
+	public void setVictoryPoints(int victoryPoints) {
+		this.victoryPoints = victoryPoints;
+	}
+	
+	public void addRoad(Button s1) {
+		roads.add(s1);
+	}
+	
+	
+}
