@@ -1,0 +1,415 @@
+import java.awt.*;
+import java.util.Random;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
+
+public class Controller {
+	
+	@FXML private Button s1;
+	@FXML private Button s2;
+	@FXML private Button s3;
+	@FXML private Button s4;
+	@FXML private Button s5;
+	@FXML private Button s6;
+	@FXML private Button s7;
+	@FXML private Button s8;
+	@FXML private Button s9;
+	@FXML private Button s10;
+	@FXML private Button s11;
+	@FXML private Button s12;
+	@FXML private Button s13;
+	@FXML private Button s14;
+	@FXML private Button r1;
+	@FXML private Button r2;
+	@FXML private Button r3;
+	@FXML private Button r4;
+	@FXML private Button r5;
+	@FXML private Button r6;
+	@FXML private Button r7;
+	@FXML private Button r8;
+	@FXML private Button r9;
+	@FXML private Button r10;
+	@FXML private Button r11;
+	@FXML private Button r12;
+	@FXML private Button r13;
+	@FXML private Button r14;
+	@FXML private Button l1;
+	@FXML private Button l2;
+	@FXML private Button l3;
+	@FXML private Button l4;
+	@FXML private Button l5;
+	@FXML private Button l6;
+	@FXML private Button l7;
+	@FXML private Button l8;
+	@FXML private Button l9;
+	@FXML private Button l10;
+	@FXML private Button l11;
+	@FXML private Button l12;
+	@FXML private Button l13;
+	@FXML private Button l14;
+	@FXML private Button d1;
+	@FXML private Button d2;
+	@FXML private ImageView d11;
+	@FXML private ImageView d12;
+	@FXML private ImageView d13;
+	@FXML private ImageView d14;
+	@FXML private ImageView d15;
+	@FXML private ImageView d16;
+	@FXML private ImageView d21;
+	@FXML private ImageView d22;
+	@FXML private ImageView d23;
+	@FXML private ImageView d24;
+	@FXML private ImageView d25;
+	@FXML private ImageView d26;
+
+	ImageView previousDie1;
+	ImageView previousDie2;
+	
+	Player p1 = new Player("Player 1", "red");
+	Player p2 = new Player("Player 2", "orange");
+	Player p3 = new Player("Player 3", "blue");
+	Player p4 = new Player("Player 4", "white");
+	
+	Player currentPlayer = p1;
+	
+	public void s1Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s1.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s1);
+	}
+	
+	public void s2Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s2.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s2);
+	}
+	
+	public void s3Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s3.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s3);
+	}
+	
+	public void s4Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s4.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s4);
+	}
+	
+	public void s5Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s5.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s5);
+	}
+	
+	public void s6Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s6.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s6);
+	}
+	
+	public void s7Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s7.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s7);
+	}
+	
+	public void s8Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s8.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s8);
+	}
+	
+	public void s9Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s9.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s9);
+	}
+	
+	public void s10Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s10.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s10);
+	}
+	
+	public void s11Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s11.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s11);
+	}
+	
+	public void s12Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s12.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s12);
+	}
+	
+	public void s13Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s13.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s13);
+	}
+	
+	public void s14Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		s14.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(s14);
+	}
+	
+	public void r1Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r1.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r1);
+	}
+	
+	public void r2Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r2.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r2);
+	}
+	
+	public void r3Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r3.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r3);
+	}
+	
+	public void r4Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r4.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r4);
+	}
+	
+	public void r5Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r5.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r5);
+	}
+	
+	public void r6Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r6.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r6);
+	}
+	
+	public void r7Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r7.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r7);
+	}
+	
+	public void r8Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r8.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r8);
+	}
+	
+	public void r9Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r9.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r9);
+	}
+	
+	public void r10Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r10.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r10);
+	}
+	
+	public void r11Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r11.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r11);
+	}
+	
+	public void r12Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r12.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r12);
+	}
+	
+	public void r13Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r13.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r13);
+	}
+	
+	public void r14Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		r14.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(r14);
+	}
+	
+	public void l1Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l1.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l1);
+	}
+	
+	public void l2Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l2.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l2);
+	}
+	
+	public void l3Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l3.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l3);
+	}
+	
+	public void l4Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l4.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l4);
+	}
+	
+	public void l5Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l5.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l5);
+	}
+	
+	public void l6Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l6.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l6);
+	}
+	
+	public void l7Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l7.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l7);
+	}
+	
+	public void l8Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l8.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l8);
+	}
+	
+	public void l9Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l9.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l9);
+	}
+	
+	public void l10Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l10.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l10);
+	}
+	
+	public void l11Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l11.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l11);
+	}
+	
+	public void l12Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l12.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l12);
+	}
+	
+	public void l13Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l13.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l13);
+	}
+	
+	public void l14Clicked (ActionEvent evt) {
+		System.out.println("HIII");
+		l14.setStyle("-fx-background-color:" + currentPlayer.getColor() + "; -fx-opacity:100");
+		currentPlayer.addRoad(l14);
+	}
+	
+	public void d1Clicked (ActionEvent evt){
+		Random random = new Random();
+		int rand = random.nextInt(6)+1;
+		
+		if (previousDie1==null)
+			d11.setStyle("-fx-opacity:0");
+		else
+			previousDie1.setStyle("-fx-opacity:0");
+		
+		if (rand==1) {
+			d11.setStyle("-fx-opacity:100");
+			previousDie1 = d11;
+		}
+		else if (rand==2) {
+			d12.setStyle("-fx-opacity:100");
+			previousDie1 = d12;
+		}
+		else if (rand==3) {
+			d13.setStyle("-fx-opacity:100");
+			previousDie1 = d13;
+		}
+		else if (rand==4) {
+			d14.setStyle("-fx-opacity:100");
+			previousDie1 = d14;
+		}
+		else if (rand==5) {
+			d15.setStyle("-fx-opacity:100");
+			previousDie1 = d15;
+		}
+		else if (rand==6) {
+			d16.setStyle("-fx-opacity:100");
+			previousDie1 = d16;
+		}
+		
+		System.out.println(rand);
+	}
+	
+	public void d2Clicked (ActionEvent evt){
+		Random random = new Random();
+		int rand = random.nextInt(6)+1;
+		
+		if (previousDie2==null)
+			d21.setStyle("-fx-opacity:0");
+		else
+			previousDie2.setStyle("-fx-opacity:0");
+		
+		if (rand==1) {
+			d21.setStyle("-fx-opacity:100");
+			previousDie2 = d21;
+		}
+		else if (rand==2) {
+			d22.setStyle("-fx-opacity:100");
+			previousDie2 = d22;
+		}
+		else if (rand==3) {
+			d23.setStyle("-fx-opacity:100");
+			previousDie2 = d23;
+		}
+		else if (rand==4) {
+			d24.setStyle("-fx-opacity:100");
+			previousDie2 = d24;
+		}
+		else if (rand==5) {
+			d25.setStyle("-fx-opacity:100");
+			previousDie2 = d25;
+		}
+		else if (rand==6) {
+			d26.setStyle("-fx-opacity:100");
+			previousDie2 = d26;
+		}
+		
+		System.out.println(rand);
+	}
+	
+	public void endTurn (ActionEvent evt) {
+		if (currentPlayer == p1)
+			currentPlayer = p2;
+		else if (currentPlayer == p2)
+			currentPlayer = p3;
+		else if (currentPlayer == p3)
+			currentPlayer = p4;
+		else
+			currentPlayer = p1;
+	}
+	
+}
