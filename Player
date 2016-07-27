@@ -1,4 +1,3 @@
-//import java.awt.*;
 import javafx.scene.control.Button;
 import java.util.ArrayList;
 
@@ -8,18 +7,12 @@ public class Player {
 	private String color;
 	private int victoryPoints;
 	private int[] resources;
-	private ArrayList<Button> roads;
-	private ArrayList<Button> settlements;
-	private ArrayList<Button> cities;
 
 	public Player(String name, String color) {
 		this.name = name;
 		this.color = color;
 		victoryPoints = 0;
-		resources = new int[6];
-		roads = new ArrayList<Button>();
-		settlements = new ArrayList<Button>();
-		cities = new ArrayList<Button>();
+		resources = new int[5];
 	}
 	
 	public String getName() {
@@ -46,9 +39,44 @@ public class Player {
 		this.victoryPoints = victoryPoints;
 	}
 	
-	public void addRoad(Button s1) {
-		roads.add(s1);
+	public int[] getResources() {
+		return resources;
+	}
+
+	public void setResources(int[] resources) {
+		this.resources = resources;
 	}
 	
+	public boolean deductResourcesRoad() {
+		if (resources[0]>0 && resources[2]>0) {
+			resources[0]--;
+			resources[2]--;
+			return true;
+		}
+		else
+			return false;	
+	}
 	
+	public boolean deductResourcesSettlement() {
+		if (resources[0]>0 && resources[2]>0 && resources[1]>0 && resources[4]>0) {
+			resources[0]--;
+			resources[2]--;
+			resources[1]--;
+			resources[4]--;
+			return true;
+		}
+		else
+			return false;	
+	}
+	
+	public boolean deductResourcesCity() {
+		if (resources[1]>1 && resources[3]>2) {
+			resources[1] = resources[1] - 2;
+			resources[3] = resources[3] - 3;
+			return true;
+		}
+		else
+			return false;	
+	}
+
 }
